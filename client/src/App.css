@@ -1,0 +1,66 @@
+.btn,
+.form-control,
+.card,
+.card-body {
+	border-radius: 0 !important;
+}
+select {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
+	background: url("/sort-solid.svg");
+	background-position: right 5px bottom 50%;
+	background-repeat: no-repeat;
+	background-size: 10px;
+	border-radius: 0px;
+}
+.buttons svg {
+	font-size: 5em;
+	margin-right: 16px;
+}
+.buttons h3 {
+	font-size: 2em;
+}
+.buttons .shadow:hover {
+	opacity: .9;
+	box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, .15) !important;
+}
+.buttons a:hover {
+	text-decoration: none;
+}
+.picker {
+	width: 200px !important;
+}
+.modal-content {
+	border-radius: 0 !important;
+}
+.modal-content .close,
+.modal-content .close:hover {
+	color: #fff;
+}
+td svg {
+	color: #ccc;
+}
+td svg:hover {
+	color: rgb(190, 190, 190);
+	cursor: pointer;
+}
+.table-striped svg,
+.table-striped svg:hover {
+	color: #fff;
+}
+
+tr.enter {
+	opacity: 0;
+}
+tr.enter-active {
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
+tr.exit {
+	opacity: 1;
+}
+
+tr.exit-active {
+	opacity: 0;
+	transition: all 500ms ease-in-out;
+}
